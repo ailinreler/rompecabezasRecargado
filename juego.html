@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BMO Arcade</title>
+    <link rel="stylesheet" href="css/juego.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="js/sweetalert/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/sweetalert/sweetalert.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700" rel="stylesheet">
+  </head>
+  <body>
+      <div id="titulo">
+          <h1>Rompecabezas</h1>
+        </div>
+    <div class="col-40">
+      <div id="instrucciones">
+        <h2>Instrucciones</h2>
+        <ul id="lista-instrucciones">
+        </ul>
+      </div>
+      <div id="objetivo">
+        <h2>Objetivo</h2>
+        <div class="">
+          <img src="images/final.png" alt="">
+        </div>
+      </div>
+      <div id="movimientos-restantes">
+        <h2>Movimientos restantes:</h2>
+        <p id="contadorDeMovimientos">60</p>
+      </div>
+      <div>
+        <input type="number" id="cantidadPiezasPorLado" name="cantidadPiezasPorLado" value="5">
+      </div>
+      <div id="ultimo-mov">
+        <div id="flecha" class="texto-centrado">
+
+        </div>
+      </div>
+
+    </div>
+
+
+  <div class="canvas col-60">
+
+    <canvas id="canvas" width="600" height="600">
+
+    </canvas>
+
+  </div>
+
+    <div class="col-60">
+      <!-- <div id="juego">
+        <div id="pieza1" class="piezas">
+          <img src="images/10.jpg" alt="">
+        </div>
+        <div id="pieza2" class="piezas">
+          <img src="images/20.jpg" alt="">
+        </div>
+        <div id="pieza3" class="piezas">
+          <img src="images/30.jpg" alt="">
+        </div>
+        <div id="pieza4" class="piezas">
+          <img src="images/40.jpg" alt="">
+        </div>
+        <div id="pieza5" class="piezas">
+          <img src="images/50.jpg" alt="">
+        </div>
+        <div id="pieza6" class="piezas">
+          <img src="images/60.jpg" alt="">
+        </div>
+        <div id="pieza7" class="piezas">
+          <img src="images/70.jpg" alt="">
+        </div>
+        <div id="pieza8" class="piezas">
+          <img src="images/80.jpg" alt="">
+        </div>
+        <div id="pieza9" class="piezas">
+          <img src="images/" alt="">
+        </div>
+      </div> -->
+    </div>
+    <div id="footer">
+
+    </div>
+    <script src="js/juego.js"></script>
+  </body>
+</html>
